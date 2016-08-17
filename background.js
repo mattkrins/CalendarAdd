@@ -5,7 +5,7 @@ var id = chrome.contextMenus.create({"title": title, "contexts":[context],"id": 
 
 function onClickHandler(info, tab) {
   var sText = info.selectionText;
-  var url = "https://www.google.com/calendar/event?action=TEMPLATE&text=" + encodeURIComponent(sText);  
+  var url = "https://www.google.com/calendar/event?action=TEMPLATE&details="+"Added From: \n"+tab.url+"&text=" + encodeURIComponent(sText);  
   window.open(url, '_blank');
   console.log('Opening Google Calendar with: "' + sText+'"');
 };
