@@ -1,0 +1,19 @@
+{
+	"name": "Add To Calendar",
+	"short_name": "CalendarAdd",
+	"version": "1.0",
+	"author": "Matt Krins",
+	"homepage_url": "http://studiopaw.com/",
+	"description": "Make a Google Calendar event from a selection of text",
+	"permissions": ["contextMenus"],
+	"manifest_version": 2,
+	"icons": {
+		"16": "icon16.png",
+		"32": "icon32.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
