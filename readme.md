@@ -4,7 +4,7 @@
 A Google Chrome Extension to make a Google Calendar event from a selection of text.
 
 ### Installation:
-Visit https://chrome.google.com/webstore/detail/add-to-calendar/pipjnidgeelohoapkmdcbkddjjklnofj and press "ADD TO CHROME".
+Visit this extension on [the chrome store](https://chrome.google.com/webstore/detail/add-to-calendar/pipjnidgeelohoapkmdcbkddjjklnofj) and press "ADD TO CHROME".
 
 Alternatively you can download this repository and in Chrome Extensions tick the "Developer mode" checkbox, then press "Load unpacked extension..." and select the downloaded repository location.
 
